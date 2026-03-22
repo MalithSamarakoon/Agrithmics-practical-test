@@ -1,0 +1,36 @@
+<Solution>
+  <Folder Name="/frontend/">
+    <File Path="frontend/index.html" />
+    <File Path="frontend/package-lock.json" />
+    <File Path="frontend/package.json" />
+    <File Path="frontend/vite.config.js" />
+  </Folder>
+  <Folder Name="/frontend/public/">
+    <File Path="frontend/public/favicon.svg" />
+    <File Path="frontend/public/icons.svg" />
+  </Folder>
+  <Folder Name="/frontend/src/">
+    <File Path="frontend/src/App.css" />
+    <File Path="frontend/src/App.jsx" />
+    <File Path="frontend/src/index.css" />
+    <File Path="frontend/src/main.jsx" />
+  </Folder>
+  <Folder Name="/frontend/src/assests/">
+    <File Path="frontend/src/assets/hero.png" />
+    <File Path="frontend/src/assets/react.svg" />
+    <File Path="frontend/src/assets/vite.svg" />
+  </Folder>
+  <Folder Name="/frontend/src/components/">
+    <File Path="frontend/src/components/StudentForm.jsx" />
+    <File Path="frontend/src/components/StudentListTable.jsx" />
+    <File Path="frontend/src/components/StudentPreviewTable.jsx" />
+    <File Path="frontend/src/components/Students.css" />
+    <File Path="SearchBar.jsx" />
+  </Folder>
+  <Folder Name="/frontend/src/pages/">
+    <File Path="frontend/src/pages/RegistrationPage.jsx" />
+    <File Path="frontend/src/pages/StudentListPage.jsx" />
+    <File Path="frontend/src/pages/UpdatePage.jsx" />
+  </Folder>
+  <Project Path="backend/Practice-Test.csproj" />
+</Solution>

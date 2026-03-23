@@ -9,21 +9,21 @@ const StudentListTable = ({ students, onDelete }) => {
         <table className="student-table">
             <thead>
                 <tr>
-                    <th>Name</th>
-                    <th>Date of Birth</th>
-                    <th>Email</th>
-                    <th>Telephone</th>
-                    <th>Action</th>
+                    <th className="text-left">Name</th>
+                    <th className="text-left">Date of Birth</th>
+                    <th className="text-left">Email</th>
+                    <th className="text-left">Telephone</th>
+                    <th className="text-left">Action</th>
                 </tr>
             </thead>
             <tbody>
                 {students.length > 0 ? (
                     students.map((student) => (
                         <tr key={student.id}>
-                            <td>{student.name}</td>
-                            <td>{student.dateOfBirth}</td>
-                            <td>{student.email}</td>
-                            <td>{student.phoneNumber}</td>
+                            <td className="text-left">{student.name}</td>
+                            <td className="text-left">{student.dateOfBirth}</td>
+                            <td className="text-left">{student.email}</td>
+                            <td className="text-left">{student.phoneNumber}</td>
                             <td className="action-buttons">
                                 
                                 <FiEdit 

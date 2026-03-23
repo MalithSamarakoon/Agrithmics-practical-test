@@ -6,9 +6,9 @@ const StudentPreviewTable = ({ studentList = [] }) => {
             <thead>
                 <tr>
                     <th className="text-left">Name</th>
-                    <th className="text-center">Date of Birth</th>
+                    <th className="text-left">Date of Birth</th>
                     <th className="text-left">Email</th>
-                    <th className="text-center">Telephone</th>
+                    <th className="text-left">Telephone</th>
                  </tr>
             </thead>
             <tbody>
@@ -16,9 +16,9 @@ const StudentPreviewTable = ({ studentList = [] }) => {
                     studentList.map((student, index) => (
                         <tr key={index}>
                             <td className="text-left">{student.fullName}</td>
-                            <td className="text-center">{student.dateOfBirth}</td>
+                            <td className="text-left">{student.dateOfBirth}</td>
                             <td className="text-left">{student.email}</td>
-                            <td className="text-center">{student.phoneNumber}</td>
+                            <td className="text-left">{student.phoneNumber}</td>
                             
                         </tr>
                     ))

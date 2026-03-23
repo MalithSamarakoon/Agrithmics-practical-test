@@ -5,20 +5,20 @@ const StudentPreviewTable = ({ studentList = [] }) => {
         <table className='student-table'>
             <thead>
                 <tr>
-                    <th>Name</th>
-                    <th>Date of Birth</th>
-                    <th>Email</th>
-                    <th>Telephone</th>
+                    <th className="text-left">Name</th>
+                    <th className="text-center">Date of Birth</th>
+                    <th className="text-left">Email</th>
+                    <th className="text-center">Telephone</th>
                  </tr>
             </thead>
             <tbody>
                 {studentList.length > 0 ? (
                     studentList.map((student, index) => (
                         <tr key={index}>
-                            <td>{student.fullName}</td>
-                            <td>{student.dateOfBirth}</td>
-                            <td>{student.email}</td>
-                            <td>{student.phoneNumber}</td>
+                            <td className="text-left">{student.fullName}</td>
+                            <td className="text-center">{student.dateOfBirth}</td>
+                            <td className="text-left">{student.email}</td>
+                            <td className="text-center">{student.phoneNumber}</td>
                             
                         </tr>
                     ))

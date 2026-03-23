@@ -6,6 +6,7 @@ const UpdatePage = () => {
     const { id } = useParams();
     const navigate = useNavigate();
     const [student, setStudent] = useState(null); 
+    console.log(student);
 
     
     useEffect(() => {

@@ -12,6 +12,7 @@ const UpdateStudentForm = ({ existingStudent, onUpdate }) => {
         email: existingStudent.email,
         phoneNumber: existingStudent.phoneNumber
     });
+    console.log("formdta",formData);
 
     const handleChange = (e) => {
         setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -26,7 +27,7 @@ const UpdateStudentForm = ({ existingStudent, onUpdate }) => {
         <form className='registration-form' onSubmit={handleSubmit}>
             <label>Full Name</label>
             <input 
-                name="name" className='form-input' value={formData.name} 
+                name="name" className='form-input' value={formData.fullName} 
                 onChange={handleChange} required 
             />
 
